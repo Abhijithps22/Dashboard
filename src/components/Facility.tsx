@@ -21,7 +21,7 @@ const Facility = () => {
   return (
     <div className="border bg-shadowviolet rounded-b-lg p-2">
       Facility
-      <div className="p-5 flex flex-row gap-5">
+      <div className="p-5 flex flex-row gap-5 flex-wrap ">
         <div>
           <Checkbox checked={minibar} onChange={onChangeMinibar}>
             Minibar

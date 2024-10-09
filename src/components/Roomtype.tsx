@@ -29,7 +29,7 @@ const Roomtype = () => {
       </div>
       <div className="p-3">
         <h3>Active Room Count: {roomData.activeCount}</h3>
-        <Form layout="vertical" className="flex flex-row gap-5 mt-3">
+        <Form layout="vertical" className="flex flex-row gap-5 mt-3 flex-wrap">
           <div className="w-[500px]">
             <Form.Item label="Room Type Name" name="roomType">
               <Input value={roomData.name}/>{" "}
@@ -51,7 +51,7 @@ const Roomtype = () => {
         <Roomtariif data={roomData}/>
       </div>
       <div className="p-3">
-       <ColorPicker data={roomData}/>
+       <ColorPicker/>
       </div>
       <div className="p-3">
         <Extrapersontariff/>

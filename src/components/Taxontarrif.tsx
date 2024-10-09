@@ -153,7 +153,7 @@ const Taxontarrif: React.FC = () => {
       ),
     },
     {
-      title: "Apply Discount",
+      title: "Aft Disc",
       dataIndex: "aftDisc",
       render: (text: boolean, record: TaxSlab) => (
         <Checkbox
@@ -173,7 +173,7 @@ const Taxontarrif: React.FC = () => {
   ];
 
   return (
-    <div className="flex flex-col p-4">
+    <div className="flex flex-col p-4 flex-wrap">
       <h3 className="text-black mt-3 text-[16px] font-bold">Tax on Tariff</h3>
       <div className="border border-gray-200 rounded-md shadow-md">
         <Table
